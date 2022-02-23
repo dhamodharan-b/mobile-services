@@ -6,14 +6,14 @@ let package = Package(
     platforms: [.iOS(.v9)],
     products: [
         .library(
-            name: "mobile-services",
-            targets: ["mobile-services"]
+            name: "AdobeMobileLibrary",
+            targets: ["AdobeMobileLibrary"]
         )
     ],
     targets: [
         .target(
             name: "mobile-services",
-	    path: "Sources/mobile-services"
+	    path: "Sources/AdobeMobileLibrary"
         )
     ]
 )
