@@ -14,8 +14,7 @@ let package = Package(
         .target(
             name: "AdobeMobileSDK",
             path: "Sources/AdobeMobileSDK",
-            publicHeadersPath: "",
-            exclude: ["Sources/AdobeMobileSDK/ADBMobile.h"]
+            publicHeadersPath: ""
         )
     ]
 )
