@@ -12,7 +12,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "mobile-services"
+            name: "mobile-services",
+	    path: "Sources/mobile-services"
         )
     ]
 )
