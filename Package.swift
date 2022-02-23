@@ -12,7 +12,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "ADBMobileLibrary",
+            name: "ADBMobileLib",
             path: "Sources/ADBMobile",
             publicHeadersPath: ""
         )
