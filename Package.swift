@@ -6,6 +6,6 @@ let package = Package(
     platforms: [.iOS(.v9)],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "AdobeMobile", path: "./Sources/AdobeMobile.xcframework")
+        .binaryTarget(name: "libAdobeMobile", path: "./Sources/AdobeMobile.xcframework")
     ]
 )
