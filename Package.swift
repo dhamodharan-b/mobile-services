@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "AdobeAnalytics",
+    name: "AdobeMobileLibrary",
     platforms: [.iOS(.v9)],
     products: [
         .library(
@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "AdobeMobileLibrary",
-            path: "./Sources/AdobeMobileLibrary"
+            path: "Sources/AdobeMobileLibrary"
         )
     ]
 )
