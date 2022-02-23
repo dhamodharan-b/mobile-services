@@ -6,13 +6,13 @@ let package = Package(
     platforms: [.iOS(.v9)],
     products: [
         .library(
-            name: "ADBMobile",
-            targets: ["ADBMobile"]
+            name: "ADBMobileLibrary",
+            targets: ["ADBMobileLibrary"]
         )
     ],
     targets: [
         .target(
-            name: "ADBMobile",
+            name: "ADBMobileLibrary",
             path: "Sources/ADBMobile",
             publicHeadersPath: "",
             cSettings: [
