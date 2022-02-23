@@ -7,12 +7,12 @@ let package = Package(
     products: [
         .library(
             name: "AdobeMobileLibrary",
-            targets: ["AdobeMobileLibrary"]
+            targets: ["ADBMobile"]
         )
     ],
     targets: [
         .target(
-            name: "AdobeMobileLibrary",
+            name: "ADBMobile",
             path: "Sources/AdobeMobileLibrary",
             publicHeadersPath: "",
             cSettings: [
