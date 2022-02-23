@@ -6,7 +6,7 @@ let package = Package(
     platforms: [.iOS(.v9)],
     products: [
         .library(
-            name: "AdobeAnalytics",
+            name: "AdobeMobileLibrary",
             targets: ["AdobeMobileLibrary"]
         )
     ],
