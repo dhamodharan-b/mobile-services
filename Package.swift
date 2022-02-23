@@ -14,10 +14,7 @@ let package = Package(
         .target(
             name: "ADBMobileLibrary",
             path: "Sources/ADBMobile",
-            publicHeadersPath: "",
-            cSettings: [
-              .headerSearchPath("include"),
-            ]
+            publicHeadersPath: ""
         )
     ]
 )
