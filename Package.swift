@@ -2,19 +2,18 @@
 import PackageDescription
 
 let package = Package(
-    name: "mobile-services",
+    name: "AdobeAnalytics",
     platforms: [.iOS(.v9)],
     products: [
         .library(
-            name: "ADBMobileLib",
-            targets: ["ADBMobileLib"]
+            name: "AdobeAnalytics",
+            targets: ["AdobeAnalyticsXCFramework"]
         )
     ],
     targets: [
-        .target(
-            name: "ADBMobileLib",
-            path: "Sources/ADBMobile",
-            publicHeadersPath: ""
+        . binaryTarget(
+            name: "AdobeAnalyticsXCFramework",
+            path: "AdobeMobile.xcframework"
         )
     ]
 )
