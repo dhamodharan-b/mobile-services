@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdobeMobileSDK",
-            url: "https://customers.pspdfkit.com/pspdfkit/xcframework/10.0.0.zip",
+            url: "https://github.com/dhamodharan-b/mobile-services/blob/master/Sources/AdobeMobile.xcframework.zip",
             checksum: "e79ab758f9d9a225e81e1619de53cf944a89ca1c3cadbb45f660ec138694d093")
     ]
 )
