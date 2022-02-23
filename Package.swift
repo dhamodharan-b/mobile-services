@@ -6,13 +6,13 @@ let package = Package(
     platforms: [.iOS(.v9)],
     products: [
         .library(
-            name: "AdobeAnalytics",
-            targets: ["AdobeAnalytics"]
+            name: "AdobeMobileLibrary",
+            targets: ["AdobeMobileLibrary"]
         )
     ],
     targets: [
         .target(
-            name: "AdobeAnalytics",
+            name: "AdobeMobileLibrary",
             path: "Sources/AdobeMobileLibrary",
             publicHeadersPath: "",
             cSettings: [
