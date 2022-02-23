@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "AdobeMobileLibrary",
-            targets: ["AdobeMobileLibrary"]
+            targets: ["mobile-services"]
         )
     ],
     targets: [
