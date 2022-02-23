@@ -2,17 +2,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "mobile-services",
+    name: "AdobeMobileLibrary",
     platforms: [.iOS(.v9)],
     products: [
         .library(
             name: "AdobeMobileLibrary",
-            targets: ["mobile-services"]
+            targets: ["AdobeMobileLibrary"]
         )
     ],
     targets: [
         .target(
-            name: "mobile-services",
+            name: "AdobeMobileLibrary",
 	    path: "Sources/AdobeMobileLibrary"
         )
     ]
