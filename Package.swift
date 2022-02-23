@@ -13,8 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AdobeMobileSDK",
-            path: "Sources/AdobeMobileSDK",
-            publicHeadersPath: ""
+            path: "Sources/AdobeMobileSDK"
         )
     ]
 )
