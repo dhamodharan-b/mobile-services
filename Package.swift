@@ -4,8 +4,17 @@ import PackageDescription
 let package = Package(
     name: "mobile-services",
     platforms: [.iOS(.v9)],
-    dependencies: [],
+    products: [
+        .library(
+            name: "AdobeMobileSDK",
+            targets: ["AdobeMobileSDK"]
+        )
+    ],
     targets: [
-        .binaryTarget(name: "libAdobeMobile", path: "./Sources/AdobeMobile.xcframework")
+        .target(
+            name: "AdobeMobileSDK",
+            path: "Sources/AdobeMobileSDK",
+            publicHeadersPath: ""
+        )
     ]
 )
