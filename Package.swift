@@ -2,12 +2,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "AdobeMobileLibrary",
+    name: "mobile-services",
     platforms: [.iOS(.v9)],
+    products: [
+        .library(
+            name: "AdobeAnalytics",
+            targets: ["AdobeAnalytics"]
+        )
+    ],
     targets: [
         .target(
-            name: "AdobeMobileLibrary",
-            path: "Sources/AdobeMobileLibrary"
+            name: "AdobeAnalytics",
+            path: "Sources/AdobeMobileLibrary",
+            publicHeadersPath: "",
+            cSettings: [
+              .headerSearchPath("include"),
+            ]
         )
     ]
 )
