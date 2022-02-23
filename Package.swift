@@ -6,8 +6,8 @@ let package = Package(
     platforms: [.iOS(.v9)],
     products: [
         .library(
-            name: "ADBMobileLibrary",
-            targets: ["ADBMobileLibrary"]
+            name: "ADBMobileLib",
+            targets: ["ADBMobileLib"]
         )
     ],
     targets: [
