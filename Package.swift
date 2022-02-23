@@ -7,13 +7,13 @@ let package = Package(
     products: [
         .library(
             name: "AdobeAnalytics",
-            targets: ["AdobeAnalyticsXCFramework"]
+            targets: ["AdobeMobile"]
         )
     ],
     targets: [
         . binaryTarget(
             name: "AdobeAnalyticsXCFramework",
-            path: "AdobeMobile.xcframework"
+            path: "./Sources/AdobeMobile.xcframework"
         )
     ]
 )
