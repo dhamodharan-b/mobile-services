@@ -8,7 +8,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "mobile-services",
-            targets: ["AdobeMobile"]),
+            targets: ["mobile-services"]),
     ],
     dependencies: [],
     targets: [
